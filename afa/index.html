@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AFA Exchange</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo"
+            ><img
+              src="img/header-logo.svg"
+              alt="AFA logo"
+              class="header__logo-img"
+          /></a>
+
+          <div class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li>
+                  <a data-goto=".about" href="#" class="menu__link">About</a>
+                </li>
+                <li>
+                  <a data-goto=".press" href="#" class="menu__link">Press</a>
+                </li>
+                <li>
+                  <a data-goto=".contact" href="#" class="menu__link"
+                    >Contact</a
+                  >
+                </li>
+                <li><button class="menu__login">Log In</button></li>
+                <li><button class="menu__signup">Sign Up</button></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <div class="intro__header">
+              <h1 class="intro__title">
+                Lowest fees, lightning-fast settlements and Broad market
+                accessibility
+              </h1>
+              <div class="intro__subtitle">
+                AFA OTC desk offers access to all coins and token in the
+                cryptocurrency space, institutional clients and high net worth
+                investors.
+              </div>
+            </div>
+            <img
+              class="intro__img"
+              src="img/intro/illustration.webp"
+              alt="Crypto currency image"
+            />
+            <div class="intro__convert convert">
+              <div class="convert__title">Convert Currency</div>
+              <form action="/" method="post" class="convert__form">
+                <div class="convert__row">
+                  <div class="convert__row-input">
+                    <input
+                      type="number"
+                      placeholder="Amount"
+                      class="convert__input btc"
+                    />
+                    <div class="currency-type-wrapper">
+                      <select
+                        name="currency-type"
+                        class="convert__currency-type"
+                      >
+                        <option value="1">BTC</option>
+                        <option value="2">USD</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <img
+                    src="img/intro/arrow-right.svg"
+                    class="convert__right-arrow-img"
+                    alt="arrow right"
+                  />
+                  <img
+                    src="img/intro/arrow-down-s-line.svg"
+                    class="convert__arrow-down-img"
+                    alt="arrow down"
+                  />
+
+                  <div class="convert__row-input">
+                    <input
+                      type="number"
+                      placeholder="Amount"
+                      class="convert__input usd"
+                    />
+                    <div class="currency-type-wrapper">
+                      <select
+                        name="currency-type"
+                        class="convert__currency-type"
+                      >
+                        <option value="1">USD</option>
+                        <option value="2">BTC</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="convert__button-wrapper">
+                  <button class="convert__button button" type="button">
+                    Get Quote
+                  </button>
+
+                  <div class="intro__button-icon-wrapper">
+                    <img
+                      src="img/intro/button-icon.svg"
+                      alt="Button icon"
+                      class="intro__button-icon"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="statistics section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">
+              Defining Accessibility to the Crypto Market
+            </h2>
+            <div class="section__subtitle">
+              Our robust and reliable systems allow us to easily transfer and
+              receive funds from +200 countries, provide settlement to hundreds
+              of coins with the lowest fees.
+            </div>
+          </div>
+
+          <div class="statistics__inner">
+            <div class="statistics__images">
+              <img
+                class="statistics__img"
+                src="img/statistics/1.svg"
+                alt="Statistics image"
+              />
+              <img
+                class="statistics__img"
+                src="img/statistics/2.svg"
+                alt="Statistics image"
+              />
+              <img
+                class="statistics__img"
+                src="img/statistics/3.svg"
+                alt="Statistics image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section section--gradient-down">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title white">
+              Diverse Features for High Performance Trading
+            </h2>
+          </div>
+
+          <div class="about__inner">
+            <div class="about__item">
+              <div class="about__header">
+                <div class="about__icon">
+                  <img
+                    class="about__img"
+                    src="img/about/1.svg"
+                    alt="Info icon"
+                  />
+                </div>
+                <div class="about__title">Advanced Settlement Deals</div>
+              </div>
+              <div class="about__text">
+                Trade crypto in multiple currencies USD, SGD, AUD, BRL. Advanced
+                deals are one of our unique features into accommodate client’s
+                needs
+              </div>
+            </div>
+
+            <div class="about__item">
+              <div class="about__header">
+                <div class="about__icon">
+                  <img
+                    class="about__img"
+                    src="img/about/2.svg"
+                    alt="Info icon"
+                  />
+                </div>
+                <div class="about__title">Privacy</div>
+              </div>
+              <div class="about__text">
+                Our OTC desk values and strives to protect our customer’s
+                privacy. We conduct all trades in a manner to decrease market
+                reported activity and provide the best execution price to our
+                customers
+              </div>
+            </div>
+
+            <div class="about__item">
+              <div class="about__header">
+                <div class="about__icon">
+                  <img
+                    class="about__img"
+                    src="img/about/3.svg"
+                    alt="Info icon"
+                  />
+                </div>
+                <div class="about__title">Compliance</div>
+              </div>
+              <div class="about__text">
+                AFA is a Money Service Business (MSB) registered and permitted
+                to trade in 49 US states. We provide support to coins and assets
+                with revised and approved risk assessment
+              </div>
+            </div>
+
+            <div class="about__item">
+              <div class="about__header">
+                <div class="about__icon">
+                  <img
+                    class="about__img"
+                    src="img/about/4.svg"
+                    alt="Info icon"
+                  />
+                </div>
+                <div class="about__title">Market Depth</div>
+              </div>
+              <div class="about__text">
+                We have access to deep pools of liquidity. Our trading partners
+                consist of networks of institutional crypto buyers and sellers,
+                such as miners, ICO advisories, family offices, and investment
+                funds
+              </div>
+            </div>
+
+            <div class="about__item">
+              <div class="about__header">
+                <div class="about__icon">
+                  <img
+                    class="about__img"
+                    src="img/about/5.svg"
+                    alt="Info icon"
+                  />
+                </div>
+                <div class="about__title">All Crypto Assets</div>
+              </div>
+              <div class="about__text">
+                Whether you are looking for DeFi, Bitcoin or newly launched
+                coins. We support coins such as Bitcoin, Ethereum, XRP (Ripple),
+                COMP, EOS, UNI (Uniswap) and much more. Buy in AUD, USD, NZD and
+                SGD
+              </div>
+            </div>
+
+            <div class="about__item">
+              <div class="about__header">
+                <div class="about__icon">
+                  <img
+                    class="about__img"
+                    src="img/about/6.svg"
+                    alt="Info icon"
+                  />
+                </div>
+                <div class="about__title">Liquidity</div>
+              </div>
+              <div class="about__text">
+                We can provide fast execution through out vast network of global
+                partners. Our systems can execute $100,000 just as easily as $10
+                million trades in the market. AFA’s trading team will promptly
+                analyze your trade and provide you reports with the best method
+                of execution
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Superior Trading Architecture</h2>
+          </div>
+
+          <div class="advantages__inner">
+            <div class="advantages__image advantages__image--first">
+              <img
+                class="advantages__img"
+                src="img/advantages/1.svg"
+                alt="Advantage image"
+              />
+            </div>
+            <div class="advantages__content">
+              Our proprietary OTC technology and global accessibility ensure a
+              unique system execution making AFA OTC desk the first choice for
+              high-net-worth individuals and institutions tapping into
+              cryptocurrency market liquidity. We offer access to hot crypto
+              coin such as DeFi coins like COMP, UNI, AAVE, BNB and many others.
+              Our systems can execute $100,000 just as easily as $10 million
+              trades in the market.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages section section--lighter">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Multilevel Security and Compliance</h2>
+          </div>
+
+          <div class="advantages__inner">
+            <div class="advantages__content">
+              <p>
+                AFA is a Money Service Business (MSB) registered and permitted
+                to trade in 49 US states. We comply with the and laws f the
+                jurisdiction we trade in order to offer the best protection to
+                our customers.
+              </p>
+              <p>
+                AFA runs a multisignature deposit and withdrawal scheme. All our
+                addresses are multisignature and all storage is kept offline.
+                Additionally, each and every withdrawal on AFA is audited by
+                hand by at least two AFA employees before sending.
+              </p>
+            </div>
+            <div class="advantages__image advantages__image--second">
+              <img
+                class="advantages__img"
+                src="img/advantages/2.svg"
+                alt="Advantage image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Global Network</h2>
+          </div>
+
+          <div class="advantages__inner">
+            <div class="advantages__image advantages__image--third">
+              <img
+                class="advantages__img"
+                src="img/advantages/3.svg"
+                alt="Advantage image"
+              />
+            </div>
+            <div class="advantages__content">
+              <p>
+                We partner with various sectors and regions to prepare limitless
+                trading opportunities and remove any barries traders might face.
+              </p>
+              <p>Additionally, we can assist you with:</p>
+
+              <ul>
+                <li class="advantages__list-item">Staking Services</li>
+                <li class="advantages__list-item">
+                  Trading and Market Insight
+                </li>
+                <li class="advantages__list-item">Portfolio Management</li>
+                <li class="advantages__list-item">Quantitative Strategies</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="create-account section section--gradient-left">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title white">
+              Join The #1 OTC desk in the Market
+            </h2>
+            <div class="section__subtitle">
+              Create an account and start trading with the lowest fees and best
+              liquidity in the market.
+            </div>
+          </div>
+
+          <div class="create-account__inner">
+            <button class="create-account__button button" type="button">
+              Create Account
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="press section section--green">
+        <div class="container">
+          <div class="container__inner">
+            <div class="section__header">
+              <h2 class="section__title black">AFA on the News</h2>
+            </div>
+
+            <div class="press__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="press__item swiper-slide">
+                  <img
+                    class="press__img"
+                    src="img/press/1.webp"
+                    alt="News image"
+                  />
+                  <div class="press__content">
+                    <div class="press__title">
+                      News Lorem Ipsum One Line Title
+                    </div>
+                    <div class="press__date">June 23, 2021</div>
+                    <div class="press__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="press__item swiper-slide">
+                  <img
+                    class="press__img"
+                    src="img/press/2.webp"
+                    alt="News image"
+                  />
+                  <div class="press__content">
+                    <div class="press__title">
+                      News Lorem Ipsum One Line Title
+                    </div>
+                    <div class="press__date">June 23, 2021</div>
+                    <div class="press__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="press__item swiper-slide">
+                  <img
+                    class="press__img"
+                    src="img/press/3.webp"
+                    alt="News image"
+                  />
+                  <div class="press__content">
+                    <div class="press__title">
+                      News Lorem Ipsum One Line Title
+                    </div>
+                    <div class="press__date">June 23, 2021</div>
+                    <div class="press__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="press__item swiper-slide">
+                  <img
+                    class="press__img"
+                    src="img/press/1.webp"
+                    alt="News image"
+                  />
+                  <div class="press__content">
+                    <div class="press__title">
+                      News Lorem Ipsum One Line Title
+                    </div>
+                    <div class="press__date">June 23, 2021</div>
+                    <div class="press__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <a href="#" class="press__link-all">
+              See all <img src="img/press/arrow-right.svg" alt="arrow right" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section section--contact">
+        <div class="container">
+          <div class="section__header section__header--contact">
+            <h2 class="section__title">How can we help you?</h2>
+            <div class="section__subtitle section__subtitle--contact">
+              Our team is ready to help you every step of the way, with a
+              commitment to sophisticated execution and best-in-class
+              professional support.
+            </div>
+          </div>
+
+          <div class="contact__inner">
+            <div class="contact__content">
+              <form action="/" method="post" class="contact__form">
+                <div class="contact__person">
+                  <div class="contact__name">
+                    <label>
+                      First Name*
+                      <input
+                        type="text"
+                        class="contact__input"
+                        placeholder="John"
+                      />
+                    </label>
+                  </div>
+                  <div class="contact__lastname">
+                    <label>
+                      Last Name*
+                      <input
+                        type="text"
+                        class="contact__input"
+                        placeholder="Smith"
+                      />
+                    </label>
+                  </div>
+                </div>
+
+                <label>
+                  Phone or email*
+                  <input
+                    type="text"
+                    class="contact__input"
+                    placeholder="johnsmith@gmail. com"
+                  />
+                </label>
+
+                <label>
+                  Message*
+                  <textarea
+                    class="contact__textarea"
+                    name="#"
+                    placeholder="How can we help you?"
+                  ></textarea>
+                </label>
+              </form>
+              <button class="button contact__button" type="submit">
+                Submit
+              </button>
+              <a class="contact__telegram-link" href="#">
+                Contact us at Telegram
+                <img src="img/contact/telegram-icon.svg" alt="Telegram icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <img
+                src="img/footer/logo.svg"
+                alt="AFA logo"
+                class="footer__logo-img"
+              />
+            </div>
+            <div class="footer__text">
+              AFA Global Trading Ltd is a Money Service Business (MSB) permitted
+              to trade in 49 US states and global reach depending on your
+              jurisdiction
+            </div>
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__title">Company</div>
+            <ul>
+              <li><a class="footer__link" href="#">About</a></li>
+              <li><a class="footer__link" href="#">Team</a></li>
+              <li><a class="footer__link" href="#">Careers</a></li>
+              <li><a class="footer__link" href="#">Press</a></li>
+              <li><a class="footer__link" href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__title">Legal</div>
+            <ul>
+              <li><a class="footer__link" href="#">Terms & Services</a></li>
+              <li><a class="footer__link" href="#">Risk Disclosures</a></li>
+              <li><a class="footer__link" href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <div class="footer__title">Compliance</div>
+            <ul>
+              <li><a class="footer__link" href="#"> Fincen</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__last-column">
+            <div class="footer__social">
+              <a href="#" target="_blank" class="footer__social-link">
+                <img src="img/footer/linkedin.svg" alt="LinkedIn icon" />
+              </a>
+              <a href="#" target="_blank" class="footer__social-link">
+                <img src="img/footer/twitter.svg" alt="Twitter icon" />
+              </a>
+              <a href="#" target="_blank" class="footer__social-link">
+                <img src="img/footer/telegram.svg" alt="Telegram icon" />
+              </a>
+            </div>
+            <div class="footer__copyright">© 2021 Copyright AFA Exchange</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
