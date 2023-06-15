@@ -1160,6 +1160,7 @@ body.lock {
   }
   .menu__body.active {
     left: 0;
+    height: 100vh;
   }
   .menu__list {
     margin-bottom: 80px;
